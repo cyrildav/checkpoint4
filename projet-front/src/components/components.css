@@ -1,0 +1,70 @@
+.presentation, .photos, .activity, .dispo  {
+    border: solid;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color:green;
+}
+/* Home */
+
+.sitePresentation {
+    font-size: 3rem;
+}
+
+/* Activity */
+
+.sectionActivity {
+    display: flex;
+    justify-content: space-around;
+}
+/* photos */
+
+.imgSection {
+    display: flex;
+    justify-content: space-around;
+}
+ #photos {
+    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+    -webkit-transition:  1s ease; /* Safari et Chrome */
+    -moz-transition:  1s ease; /* Firefox */
+    -ms-transition:  1s ease; /* Internet Explorer 9 */
+    -o-transition:  1s ease; /* Opera */
+    transition:  1s ease;
+    }
+#photos:hover  {
+    /* L'image est grossie de 25% */
+    -webkit-transform:scale(1.20); /* Safari et Chrome */
+    -moz-transform:scale(1.20); /* Firefox */
+    -ms-transform:scale(1.20); /* Internet Explorer 9 */
+    -o-transform:scale(1.20); /* Opera */
+    transform:scale(1.20);
+    }
+/* calendrier */
+label, input, textarea {
+    margin-bottom: 1rem;
+}
+input {
+    height: 1.5rem;
+}
+textarea {
+    min-height: 100px;
+    width: 400px;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    font-size: 1rem;  
+}
+
+
+.calendarFlex {
+    display: flex;
+    justify-content: space-around;
+}
+.divInput {
+    display: flex;
+    flex-direction: column;
+}
+.divCalendrier {
+    display: flex;
+    justify-content: center;
+}
+  

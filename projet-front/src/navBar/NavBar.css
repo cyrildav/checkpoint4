@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    border: solid green;
+    width: 8vw;
+    height: 50vh;
+    justify-content: space-around;
+    margin-left: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    }
+.active {
+    color:green;
+}
+.conteneur {
+    width: 100vw;
+    margin-right: 1rem;
+}
